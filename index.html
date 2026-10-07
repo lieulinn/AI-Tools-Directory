@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI TOOLS LVARA — Directory</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">AI TOOLS <span>LVARA</span></a>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO & SEARCH SECTION -->
+  <section class="hero">
+    <div class="container hero-container">
+      <h1>Discover & Explore Best AI Tools</h1>
+      <p>Katalog direktori alat AI terbaik untuk meningkatkan produktivitas Anda.</p>
+      
+      <!-- Search Input -->
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="searchInput" placeholder="Search AI tools...">
+        <button id="clearSearch" class="clear-btn">&times;</button>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="category-pills" id="categoryPills">
+        <button class="pill active" data-category="all">All</button>
+        <button class="pill" data-category="Writing">Writing</button>
+        <button class="pill" data-category="Image">Image</button>
+        <button class="pill" data-category="Video">Video</button>
+        <button class="pill" data-category="Coding">Coding</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN DIRECTORY SECTION -->
+  <main class="container main-content">
+    
+    <!-- Tab Filter -->
+    <div class="tab-navigation">
+      <button class="tab-btn active" data-tab="all">All Tools</button>
+      <button class="tab-btn" data-tab="featured">Featured</button>
+      <button class="tab-btn" data-tab="popular">Popular Tools</button>
+      <button class="tab-btn" data-tab="new">New Tools</button>
+    </div>
+
+    <!-- Tools Grid -->
+    <div class="tools-grid" id="toolsGrid">
+      <!-- Generated via JS -->
+    </div>
+
+    <!-- Empty State -->
+    <div class="empty-state" id="emptyState">
+      <i class="fa-solid fa-robot"></i>
+      <h3>No AI tools found</h3>
+      <p>Coba kata kunci lain atau pilih kategori berbeda.</p>
+    </div>
+  </main>
+
+  <!-- DETAIL MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-card">
+      <button class="close-modal" id="closeModal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Generated via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026 AI TOOLS LVARA. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
