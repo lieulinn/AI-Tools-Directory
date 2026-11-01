@@ -71,6 +71,18 @@ const aiToolsData = [
     popular: false,
     isNew: true,
     url: "https://v0.dev"
+  },
+  {
+    "id": 7,
+    "name": "agent-qa",
+    "category": "Coding",
+    "description": "QA web dan aplikasi seluler dengan bahasa alami dari vostride, mesin memori, dan peningkatan mandiri. Rilis awal; Node.js 24+. FSL-1.1-ALv2 membatasi penggunaan komersial yang bersaing. Biaya model dan perangkat terpisah.",
+    "icon": "fa-solid fa-flask",
+    "pricing": "Gratis sesuai lisensi",
+    "featured": false,
+    "popular": false,
+    "isNew": false,
+    "url": "https://vostride.com"
   }
 ];
 
